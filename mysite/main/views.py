@@ -6,5 +6,3 @@ from django.http import HttpResponse
 def index(respond):
     return HttpResponse('<h1>Aloha, Denis!</h1>')
 
-def v1(response):
-    return HttpResponse('<h1>view 1</h1>')

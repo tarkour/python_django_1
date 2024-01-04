@@ -20,5 +20,4 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')), # if web-path is blank, redirect to file 'urls.py' in folder 'main' to provide response
-    path('views/', include('main.urls')),
 ]
